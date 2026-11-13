@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+*.egg-info/
+build/
+dist/
+.venv/
+envs/*/.venv/
+.pytest_cache/
+.ruff_cache/
+envs/
+
+# Settings with secrets
+.env
+
+# Data
+data/
+
+# Training outputs
+models/
+out/
+checkpoints/
